@@ -3,11 +3,11 @@
 ## General
 This "library" is written in Java and requires JDK 1.8.
 
-Use the hints in Build section to explore what is currently supported. Currently the unit tests will pass. However the library will not work since the function that fetches actual rates was not implemented (was not in the requirements).
+Use the hints in Build section to explore what is currently supported. The unit tests will pass. However, the library will not work since the function that fetches actual rates was not implemented (was not in the requirements).
 
-Adding operations to the calculator like multiple of amounts by quantity will simply require an addition of one function in the Calculator.java file.
+Adding operations to the calculator like multiplication of amounts by quantity will simply require an addition of one function in the Calculator.java file.
 
-Adding "support" for other countries requires adding enum values to i18n/Countries enumeration. The added vaules must exist in he actual values fetched from a rates provider. About 30 countries can be potentially supported.
+Adding "support" for other countries requires adding enum values to i18n/Countries enumeration. The added vaules must exist in the actual currencies fetched from a rates provider. About 30 currencies can potentially be supported.
 
 ### Limitations
 - Big numbers and overflows were completely ignored
