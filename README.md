@@ -1,4 +1,4 @@
-# The Next Big Thing
+# Next Big Thing
 
 
 ## Build
